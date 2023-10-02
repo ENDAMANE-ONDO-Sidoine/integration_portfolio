@@ -9,12 +9,12 @@
 	<script src="tailwindcss.js"></script>
 </head>
 <body>
-    <nav>
-        <div class=" flex justify-between items-center px-20 py-5">
+    <nav class="sticky top-0 z-30 bg-white mb-5">
+        <div class=" flex justify-between items-center px-20 py-5 ">
             <div>
                 <img src="./images/logo.png" alt="logo_portfolio" class="">
             </div>
-            <div>
+            <div class="flex items-center gap-20">
                 <ul class=" flex gap-5">
                     <li><a href=""></a><b>ACCUEIL</b></li>
                     <li><a href=""></a><b>A PROPOS DE MOI</b></li>
@@ -22,34 +22,189 @@
                     <li><a href=""></a><b>BLOG</b></li>
                     <li><a href=""></a><b>ME CONTACTER</b></li>
                 </ul>
-            </div>
-            <div>
-                <button class="text-white p-2 bg-blue-400 rounded-full">Let's chat</button>
+                <div>
+                    <button class="text-white  bg-blue-400 rounded-full w-[110px] h-[35px]">Let's chat</button>
+                </div>
             </div>
         </div>
     </nav>
     <main >
-            <div class="flex justify-between p-20 ">
+        <div class="flex justify-between p-20 ">
+            <div class="">
                 <div class="">
-                    <div class="">
-                        <p class="mb-5 font-bold">welcome to my portfolio</p>
-                        <h2 class=" text-3xl font-extra-bold mb-2"><b>HI I'M</b></h2>
-                        <h2 class="text-4xl font-extra-bold text-blue-400 mb-2"><b>ROBERT JUNIOR</b></h2>
-                        <h2 class="mb-5 text-3xl font-extra-bold mb-2"><b>PRODUCT DESIGNER</b></h2>
-                        <P>collarating width highly skilled inviduals,<br> our agency delivers top-quality services. </P>
-                    </div>
-                    <div class="mt-5 flex ">
-                        <button class="px-4 bg-blue-400 rounded-full text-white">Hire Me!</button>
-                        <div class="p-2 text-blue-400 font-bold rounded-full border border-blue-500 ml-5 flex gap-5">Download CV <img src="./images/icon-download 1.png" alt="patientez svp"></div>
-                    </div>
+                    <p class="mb-5 font-bold">welcome to my portfolio</p>
+                    <h2 class=" text-3xl font-extra-bold mb-2"><b>HI I'M</b></h2>
+                    <h2 class="text-4xl font-extra-bold text-blue-400 mb-2"><b>ROBERT JUNIOR</b></h2>
+                    <h2 class="mb-5 text-3xl font-extra-bold mb-2"><b>PRODUCT DESIGNER</b></h2>
+                    <P>Collaborating with highly skilled individuals,<br> our agency delivers top-quality services. </P>
                 </div>
-                <div class="">
-                    <img src="./images/img_1.png" alt="image" class="rounded-full h-[400px]">
+                <div class="mt-5 flex ">
+                    <button class=" bg-blue-400 rounded-full text-white w-[110px] h-[35px]">Hire Me!</button>
+                    <div class="items-center p-4 text-blue-400 font-bold rounded-full border border-blue-500 ml-5 flex  w-[180px] h-[35px]"><a href="#" class="flex items-center gap-2 ">Download CV <img src="./images/icon-download 1.png" alt="patientez svp"></a></div>
                 </div>
             </div>
-            <div>
-
+            <div class="">
+                <img src="./images/img_1.png" alt="image" class="rounded-full h-[400px]">
             </div>
+        </div>
+        <div class="flex gap-5 justify-between items-center px-20 py-5 bg-gray-200">
+            <img src="./images/111logo-1.png" alt="" class="w-[200px]">
+            <img src="./images/logo-2.png" alt="" class="w-[200px]">
+            <img src="./images/logo-3.png" alt="" class="w-[200px]">
+            <img src="./images/logo-5.png" alt="" class="w-[200px]">
+            <img src="./images/logo-6.png" alt="" class="w-[200px]">
+        </div>
+        <div class="flex  items-center gap-5 p-20 ">
+            <div class=" bg-blue-400 bg-cover p-[18%] bg-center rounded-full" style="background-image: url(./images/2pexels-wictor-cardoso-18269633\ 1.png); ">
+                <img src="" alt="" class="">
+            </div>
+            <div class="">
+                <div class="">
+                    <h2 class="text-blue-400"><b>ABOUT ME </b></h2>
+                    <h2 class="text-blue-400 font-extra-bold text-4xl mt-3 "><b>20 Year’s Experience</b></h2>
+                    <h2 class="font-extra-bold text-4xl mb-5"><b>on Product Design</b></h2>
+                    <p class="">Hello there! I'm <b>Robert Junior</b>. I specialize in web design and <br>development, and I'm deeply passionate and committed to my craft. <br>With <b>20 years</b> of experience as a professional graphic designer</p>
+                </div>
+                <div class="flex gap-5 items-center mt-14">
+                    <div class="text-blue-400 text-white rounded-full px-5 p-1 bg-blue-400 ">
+                            <a href="#">Main Skills</a>
+                    </div>
+                    <div class="text-blue-400 text-blue-400 rounded-full px-10 p-1  border border-blue-500">
+                            <a href="#">Awards</a>
+                    </div>
+                    <div class="text-blue-400 text-blue-400 rounded-full px-10 p-1  border border-blue-500">
+                            <a href="#">Education</a>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <p class="font-bold mb-2">User Experience Design - UI/UX</p>
+                    <div class="flex items-center bg-gray-200 rounded-full w-[76%]">
+                        <div class="bg-blue-400 p-1 rounded-full w-[96%] z-10"></div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <p class="font-bold mb-2">Web & User Interface Design - Development</p>
+                    <div class="flex items-center bg-gray-200 rounded-full w-[76%]">
+                        <div class="bg-blue-400 p-1 rounded-full w-[93%] z-10"></div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <p class="font-bold mb-2">Interaction Design - Animation</p>
+                    <div class="flex items-center bg-gray-200 rounded-full w-[76%]">
+                        <div class="bg-blue-400 p-1 rounded-full w-[85%] z-10"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-10">
+            <p class="text-blue-400"><b>Services</b></p>
+            <h2 class="text-3xl"><b>Exploring My Design <span class="text-blue-400">Skills</span></b></h2>
+            <p>We transform your ideas into a distinctive web project that both inspires <br>you and captivates your customers</p>
+        </div>
+        <div class=" flex justify-end items-center gap-5 p-20">
+            <img src="./images/01button arrow.png" alt="">
+            <img src="./images/02button arrow.png" alt="">
+        </div>
+        <div class="flex gap-10 p-20 justify-center">
+            <div class=" text-white rounded-[10px] w-[310px] h-[270px] shadow p-5 bg-cover bg-center" style="background-image: url(./images/Block\ Service\ Blue.png);">
+                <img src="./images/Clip path group.png" alt="" class="w-[50px] mb-5">
+                <h3 class="font-extra-bold text-1xl mb-1"><b>Website / App Design <br>UX / UI Design</b></h3>
+                <p>Creating Engaging Digital Experiences <br>for Websites and Apps through UX/UI <br>Design</p>
+                <div class="mt-5">
+                    <a href="#" class="flex gap-2 ">
+                        <p>Learn more</p>
+                        <img src="./images/Arrow 1.png" alt="" class="w-[15px]">
+                    </a>
+                </div>
+            </div>
+            <div class="rounded-[10px] w-[310px] h-[270px] shadow p-5 border border-white">
+                <img src="./images/front-development-1-1 1.png" alt="" class="w-[50px] mb-5">
+                <h3 class="font-extra-bold text-1xl mb-1"><b>Strategic Marketing and <br> Creative Content</b></h3>
+                <p>Elevating Brands and Engagement <br>through Strategic Marketing and <br>Creative Content</p>
+                <div class="mt-5">
+                    <a href="#" class="flex gap-2 text-blue-400">
+                        <p>Learn more</p>
+                        <img src="./images/Arrow 1 (1).png" alt="" class="w-[15px] ">
+                    </a>
+                </div>
+            </div>
+            <div class="rounded-[10px] w-[310px] h-[270px] shadow p-5 border border-white">
+                <img src="./images/front-development-1-1 1.png" alt="" class="w-[50px] mb-5">
+                <h3 class="font-extra-bold text-1xl mb-1"><b>Multivendor eCommerce <br>Website Solutions</b></h3>
+                <p>Unlocking the World of Multivendor <br> eCommerce Websites</p>
+                <div class="mt-10">
+                    <a href="#" class="flex gap-2 text-blue-400">
+                        <p>Learn more</p>
+                        <img src="./images/Arrow 1 (1).png" alt="" class="w-[15px] ">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-cover bg-center p-20" style="background-image: url(./images/Block\ Service\ Blue.png);">
+            <div class="text-center text-white mb-10">
+                <p class="">Our Milestones</p>
+                <h4 class="text-2xl font-bold"><b>What sets our studio apart <br> for your projects?</b></h4>
+            </div>
+            <div class="flex items-center gap-5 justify-center mt-5 "> 
+                <div class=" rounded-[10px] shadow p-4 w-[220px] bg-white">
+                    <h4 class="text-3xl"><b>8300+</b></h4>
+                    <p>Figma ipsum component <br> variant main layer. Hand.</p>
+                </div>
+                <div class=" rounded-[10px] shadow p-4 w-[220px] bg-white">
+                    <h4 class="text-3xl"><b>100%</b></h4>
+                    <p>Figma ipsum component <br> variant main layer. Hand.</p>
+                </div>
+                <div class=" rounded-[10px] shadow p-4 w-[220px] bg-white">
+                    <h4 class="text-3xl"><b>3.5k+</b></h4>
+                    <p>Figma ipsum component <br> variant main layer. Hand.</p>
+                </div>
+                <div class=" rounded-[10px] shadow p-4 w-[220px] bg-white">
+                    <h4 class="text-3xl"><b>241+</b></h4>
+                    <p>Figma ipsum component <br> variant main layer. Hand.</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-20">
+            <div class="text-center mb-5">
+                <p class="text-blue-400 font-bold">OUR PROJECTS </p>
+                <h4 class="text-3xl font-bold"><b>Presenting my design  <br> Portfolio and Case Studies </b></h4>
+            </div>
+            <div class="flex gap-5 items-center justify-center">
+                <div class="text-blue-400 text-white rounded-full px-8 p-1 bg-blue-400 ">
+                        <a href="#">All</a>
+                </div>
+                <div class="text-blue-400 text-blue-400 rounded-full px-10 p-1  border border-blue-500">
+                        <a href="#">UI/UX Design</a>
+                </div>
+                <div class="text-blue-400 text-blue-400 rounded-full px-10 p-1  border border-blue-500">
+                        <a href="#">Branding Design</a>
+                </div>
+                <div class="text-blue-400 text-blue-400 rounded-full px-10 p-1  border border-blue-500">
+                        <a href="#">Wordpress</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-5 pb-20 pt-10 ">
+                <img src="./images/preview2.png" alt="" class=" shadow">
+                <img src="./images/preview1.png" alt="" class=" shadow">
+                <img src="./images/preview3.png" alt="" class=" shadow">
+                <img src="./images/preview5.png" alt="" class=" shadow">
+                <img src="./images/preview4.png" alt="" class=" shadow">
+                <img src="./images/preview6.png" alt=""class=" shadow">
+            </div>
+            <div class="text-center mb-5">
+                <p class="text-blue-400 font-bold">TESTIMONIALS </p>
+                <h4 class="text-3xl font-bold"><b>The Trust From Clients</b></h4>
+            </div>
+            <div class=" flex justify-center items-center gap-3">
+                <img src="./images/01button arrow.png" alt="" class="h-10 ">
+                <img src="./images/02button arrow.png" alt="" class="h-10">
+            </div>
+            <div class="">
+                <div class="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
